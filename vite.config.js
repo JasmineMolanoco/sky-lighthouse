@@ -12,7 +12,9 @@ export default defineConfig(({command, mode}) => {
           isCustomElement: tag => tag.startsWith('a-')
         },
       },
+    
     })],
+    base: '/jasmine/',
   };
 
   return config;

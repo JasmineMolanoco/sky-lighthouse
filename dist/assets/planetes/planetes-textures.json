@@ -1,0 +1,50 @@
+[
+    {
+        "src": "TexturesCom_DustOverlay_overlay_M.tif"
+    },
+    {
+        "src": "TexturesCom_Gore_1K_albedo.tif"
+    },
+    {
+        "src": "TexturesCom_Gore_1K_normal.tif"
+    },
+    {
+        "src": "TexturesCom_Gore_1K_roughness.tif"
+    },
+    {
+        "src": "TexturesCom_Leather_Plain09_008x008_1K_albedo.tif"
+    },
+    {
+        "src": "TexturesCom_Leather_Plain09_008x008_1K_height.tif"
+    },
+    {
+        "src": "TexturesCom_Leather_Plain09_008x008_1K_normal.tif"
+    },
+    {
+        "src": "TexturesCom_Overlay_Abstract_1K_overlay.tif"
+    },
+    {
+        "src": "TexturesCom_Overlay_Scuffs_1K_overlay.tif"
+    },
+    {
+        "src": "TexturesCom_Paint_Chipped_1K_albedo.tif"
+    },
+    {
+        "src": "TexturesCom_Plastic_SpaceBlanketFolds_1K_albedo.tif"
+    },
+    {
+        "src": "TexturesCom_Rock_CliffVolcanic_1K_albedo.tif"
+    },
+    {
+        "src": "TexturesCom_Rock_CliffVolcanic_1K_roughness.tif"
+    },
+    {
+        "src": "TexturesCom_RockAlpha4_1K_3dbrush.tif"
+    },
+    {
+        "src": "TexturesCom_Sand_Muddy2_2x2_1K_height.tif"
+    },
+    {
+        "src": "TexturesCom_Sand_Muddy2_2x2_1K_normal.tif"
+    }
+]

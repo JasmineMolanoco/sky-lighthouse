@@ -1,0 +1,20 @@
+<script setup>
+import '../aframe/emit-when-near';
+import '../aframe/event-set';
+
+defineProps({
+  radius: Number,
+  color: String,
+  src: String,
+  posx: Number,
+  posy: Number,
+  posz: Number
+});
+
+</script>
+
+<template>
+  <a-sphere :radius="`${radius}`" :position="`${posx} ${posy} ${posz}`" :material="`src: ${src}`" visible="false"
+    emit-when-near="event: change-color; distance: 2.5; target: #colision-sphere"
+    :event-set__near="`event: change-color; attribute: visible; value:true;`"></a-sphere>
+</template>

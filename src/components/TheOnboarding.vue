@@ -50,6 +50,10 @@
             by <a href="https://sketchfab.com/mvrc.art" target="_blank">Maxim Mavrichev</a>
             under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>
           </dd>
+          <dd>Music by <a href="https://pixabay.com/users/lesfm-22579021/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=125566">Lesfm</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=125566">Pixabay</a>
+          </dd>
+          <dd>Music by <a href="https://pixabay.com/users/palle1958-18594144/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=4602">Palle Knudsen</a> from <a href="https://pixabay.com/music//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=4602">Pixabay</a>
+        </dd>
         </dl>
       </div>
     </div>
