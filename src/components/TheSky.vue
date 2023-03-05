@@ -35,6 +35,10 @@ const points = (new THREE.SphereGeometry(25,15,30,0,Math.PI)).attributes.positio
   //     }
   //   }
   // });
+
+  // count the number of visible stars
+  const visibleStars = document.querySelectorAll('#stars[visible="true"]');
+  console.log(visibleStars.length);
 </script>
 
 <template>

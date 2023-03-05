@@ -6,5 +6,4 @@ export function getRandomTexture() {
   
   let i = Math.floor(Math.random() * (15 - 0 + 1) + 0)
   return path+allTextures[i].src
- 
 }

@@ -17,7 +17,7 @@ const allAssetsLoaded = ref(false);
                 src="../../public/assets/imgs/1567215018748-ESA_Gaia_DR2_AllSky_Brightness_Colour_Cartesian_2000x1000.png">
             <img id="grass" src="../../public/assets/textures/coast_sand_rocks_02_diff_4k.jpg">
             <!-- <img id="texture" src="../../public/assets/planetes/"> -->
-            <audio id="music" src="assets/music/organ-ic-awsome-pink-floydish-outro-4602.mp3" autoplay="true"></audio>
+            <audio id="music" src="public/assets/music/please-calm-my-mind-125566.mp3" autoplay="true"></audio>
         </a-assets>
         <a-entity light="type: ambient; color: white; intensity: 0.15">
         </a-entity>
