@@ -4,6 +4,7 @@ import TheOnboarding from './components/TheOnboarding.vue';
 import TheOverlay from './components/TheOverlay.vue';
 import TheScene from './components/TheScene.vue';
 import ThSkyScene from './components/ThSkyScene.vue';
+import TheEndScreen from './components/TheEndScreen.vue';
 
 const scale = ref(1);
 const loaded = ref(false);
@@ -19,9 +20,6 @@ const loaded = ref(false);
 
   <ThSkyScene overlay-selector="#overlay" @loaded="loaded = true" />
 
-  <!-- <TheScene
-        :scale="scale"
-        overlay-selector="#overlay"
-        @loaded="loaded = true"
-      /> -->
+  <TheEndScreen :loaded="loaded" />
+
 </template>
