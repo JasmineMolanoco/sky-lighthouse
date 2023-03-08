@@ -15,6 +15,7 @@ defineProps({
 
 <template>
   <a-sphere data-role="star" :radius="`${radius}`" :position="`${posx} ${posy} ${posz}`" :material="`src: ${src}; color: white; roughness: 1; metalness: 0`" visible="false"
-    emit-when-near="event: change-color; distance: 4; target: #colision-sphere"
+    emit-when-near__head="event: change-color; distance: 4; target: #colision-sphere-head"
+    emit-when-near__hand="event: change-color; distance: 4; target: #colision-sphere-hand"
     :event-set__near="`event: change-color; attribute: visible; value:true;`"></a-sphere>
 </template>

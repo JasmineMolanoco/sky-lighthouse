@@ -36,9 +36,9 @@ const allAssetsLoaded = ref(false);
         <a-entity light="type: point; color: white; intensity: 0.0015;">
         </a-entity>
         <a-entity v-if="allAssetsLoaded" scale="0.7 0.7 0.7" rotation="0 0 0" animation-mixer gltf-model="#lighthouse"
-            position="-0.670 -16.750 0"></a-entity>
-        <TheNavMesh />
+            position="-0.670 -16.580 0"></a-entity>
         <a-sound v-if="allAssetsLoaded" src="#music" autoplay="true" loop="true" position="0 0 0"></a-sound>
+        <TheNavMesh />
         <TheSky />
         <TheCameraRig />
         <TheGround position="0 -16.620 0" />

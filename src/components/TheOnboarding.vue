@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue';
 import { showOnboarding } from '../aframe/store';
+import { nbOfStars } from '../aframe/store';
 
 
 defineProps({
@@ -21,18 +22,20 @@ function enterScene() {
   <div id="onboarding" v-if="showOnboarding">
     <div>
       <h1>The sky lighthouse</h1>
-      <p>In this video game, you find yourself in the midst of a vast, empty space, 
-        with nothing but the void surrounding you. 
-        However, you soon realize that all the stars in your solar system have disappeared, 
+      <p>In this game, you find yourself in the midst of a vast, empty space,
+        with nothing but the void surrounding you.
+        However, you soon realize that all the stars in your solar system have disappeared,
         leaving you alone and adrift.</p>
-        <p>Your objective is to locate the missing stars, 
-        using a special light that you can point towards the sky to make them reappear. 
+      <p>Your objective is to locate the missing stars,
+        using a special light that you can point towards the sky to make them reappear.
         Use your pad on your left hand for more information on the state of your mission.</p>
-        <p>Only by finding all the stars can you restore your solar system to its former glory.</p>
+      <p>Only by finding all {{ nbOfStars }} stars can you restore your solar system to its former glory.</p>
       <p v-if="!loaded">loading...</p>
       <button id="play" v-if="loaded" @click="enterScene()">Play</button>
       <div class="licences">
         <dl>
+          <dt><a href="https://github.com/JasmineMolanoco/sky-lighthouse">The sky lighthouse git repository</a>
+          </dt>
           <dt>
             <i>Included</i>
           </dt>
@@ -60,15 +63,21 @@ function enterScene() {
           </dd>
 
           <dt>
+            <a href="https://sci.esa.int/s/ApPJaGA" target="_blank"> GAIA'S SKY IN COLOUR – EQUIRECTANGULAR PROJECTION</a>
+          </dt>
+          <dd>Copyright: ESA/Gaia/DPAC, CC BY-SA 3.0 IGO
+          </dd>
+
+          <dt>
             <a href="https://polyhaven.com/a/snow_field_aerial" target="_blank"> Snow Field Aerial by Rob Tuytel</a>
           </dt>
-          <dd><a href="https://polyhaven.com/license" target="_blank"> licensed under CC Attribution</a>
+          <dd><a href="https://polyhaven.com/license" target="_blank"> Licensed under CC Attribution</a>
           </dd>
 
           <dt>
             <a href="https://skfb.ly/5i3g2e10ba" target="_blank">Kickelhahn Tower by 3DHaupt is</a>
           </dt>
-          <dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> licensed under CC Attribution</a>
+          <dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"> Licensed under CC Attribution</a>
           </dd>
 
           <dt><a
@@ -78,9 +87,15 @@ function enterScene() {
               href="https://pixabay.com/music//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=125566">Pixabay</a>
           </dd>
           <dt>"Sci-fi Tablet, display <a href="https://skfb.ly/oDJ9J">by Tronin Dmitry</a></dt>
-          <dd> <a href="http://creativecommons.org/licenses/by/4.0/"> is licensed under Creative Commons
+          <dd> <a href="http://creativecommons.org/licenses/by/4.0/">Licensed under Creative Commons
               Attribution</a>
           </dd>
+          <dt>"[Horror game] Flashlight [Download Game-ready]" <a href="https://skfb.ly/6wZpx">by Oskar "K1TT3N"
+              Adamczyk</a>
+          <dd> <a href="http://creativecommons.org/licenses/by/4.0/"> Licensed under Creative Commons
+              Attribution</a>
+          </dd>
+          </dt>
         </dl>
       </div>
     </div>
@@ -91,6 +106,7 @@ function enterScene() {
 p {
   text-align: left;
 }
+
 h1 {
   font-size: 1.5rem
 }

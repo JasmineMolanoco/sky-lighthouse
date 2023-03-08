@@ -1,6 +1,6 @@
 import { ref } from "vue";
 
-const nbOfStars =ref(30);
+const nbOfStars =ref(25);
 const score = ref(0);
 const countdown = ref(0);
 const youWin = ref(false);
