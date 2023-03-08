@@ -6,6 +6,6 @@ const allAssetsLoaded = ref(false);
 <template>
     <a-entity>
 
-        <a-circle radius="20" rotation="-90 0 0" src="#grass"></a-circle>
+        <a-circle radius="18" rotation="-90 0 0" src="#ground"></a-circle>
     </a-entity>
 </template>

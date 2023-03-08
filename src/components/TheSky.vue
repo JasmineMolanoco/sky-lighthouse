@@ -9,7 +9,7 @@ import { nbOfStars } from '../aframe/store';
 
 
 // create sphere points
-const points = (new THREE.SphereGeometry(25,15,30,0,Math.PI)).attributes.position.array;
+const points = (new THREE.SphereGeometry(25,15,30,0,2*Math.PI,0,2.38761041672824)).attributes.position.array;
   const vectorsOnSphere = new Map();
   for (let i = 0; i < points.length; i += 3) {
     vectorsOnSphere.set(`${points[i]}-${points[i+1]}-${points[i+2]}`, 
@@ -22,8 +22,6 @@ const points = (new THREE.SphereGeometry(25,15,30,0,Math.PI)).attributes.positio
     const j = Math.floor(Math.random() * (i + 1));
     [randomPoints[i], randomPoints[j]] = [randomPoints[j], randomPoints[i]];
   }
-
-
 </script>
 
 <template>
